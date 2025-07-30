@@ -1,0 +1,16 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+}
+
+.similar-book {
+  height: 150px;
+  width: auto;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.3s ease;
+}
+
+.similar-book:hover {
+  transform: scale(1.05);
+}

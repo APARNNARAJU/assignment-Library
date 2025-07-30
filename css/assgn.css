@@ -1,0 +1,87 @@
+.d-flex .form-control{
+outline: 2px solid rgb(78, 99, 53);
+}
+.body{
+    background-color: rgb(224, 224, 204); 
+}
+.class{
+    color: rgb(78, 99, 53);
+}
+.d-flex .btn{
+    outline: 2px solid lightgray;
+}
+.f1 .img{
+    width: 418px; padding-top: 0px; float: left;
+
+}
+.f1{
+    margin-right: 6%; position: absolute;top: 0px;
+    background-color:wheat; 
+    height: 46.4em; width: 26em; padding-top: 0px; 
+}
+.text-image-fill {
+  font-size: 120px;
+  font-weight: bold;
+  background-size: cover;
+  background-position: center;
+  color: transparent;
+}
+.title {
+  position: absolute;
+  top: 160px;
+  left: 152px;
+  color: rgb(31, 41, 35); background-color: rgba(170, 151, 127, 0.386);
+  font-size: 190px;
+  font-weight: bold; 
+}
+.title1{   position: absolute;  background-color: rgb(170, 151, 127, 0.386);
+  top: 160px;
+  left: 420px;
+  color:rgb(204, 195, 184);
+  font-size: 190px;
+  font-weight: bold;  }
+.intro{   position: absolute;
+  top: 360px;
+  left: 1020px;
+  color:rgb(209, 191, 169);
+  font-size: 14.5px;
+  font-weight:lighter  }
+
+
+.container{
+background-color: coral;
+border: 2px solid black;
+}
+
+section {
+      padding: 0px;
+      height: 92.7vh;
+    }
+.col .img-thumbnail{
+ padding: 0%; float:inline-start;
+  width: 80%;
+  height: 100%; margin-left: 40px;
+  object-fit:fill;
+   background-color:rgba(255, 255, 255, 0); border-radius: 0%;
+}
+.f2{
+  
+    margin-left: 35%; position: absolute;top: 970px;  border: 3px solid rgb(108, 93, 73);
+    background-color:wheat; padding-left: 250px;
+    height: 31em; width: 60em; padding-top: 30px;  
+
+}
+.f3{
+     position: absolute;top: 1000px;  padding-left: 30px;
+    background-color:rgb(24, 48, 36); padding-right: 100px;
+    height: 28em; width: 35em; padding-top: 10px; 
+}
+.f4{ 
+  
+     position: absolute; margin-left: 500px; margin-top: 100px;
+    background-color:rgb(97, 84, 63);
+    height: 20em; width: 7em;  border: 9px solid rgb(119, 119, 105);
+}
+
+
+
