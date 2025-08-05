@@ -46,15 +46,15 @@ function validate(){
     return false;
    
   }
-
+ if (!phnoRegex.test(phno.value)) {
+  alert("Phone number must be 10 digits or in formats: XXX-XXX-XXXX, XXX.XXX.XXXX, or XXX XXX XXXX");
+  return false;
+}
   if (!passwordRegex.test(password.value)) {
     alert("Password must be at least 8 characters, include uppercase, lowercase, number, and special character.");
     return false;
   }
-  if (!phnoRegex.test(phno.value)) {
-  alert("Phone number must be 10 digits or in formats: XXX-XXX-XXXX, XXX.XXX.XXXX, or XXX XXX XXXX");
-  return false;
-}
+ 
   else{
     alert("Form submitted sucessfully");
     window.location.href = "homepage.html";
