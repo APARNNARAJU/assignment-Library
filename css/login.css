@@ -9,8 +9,7 @@ body {
   align-items: center;
   height: 100vh;
 }
-
-.login-form {
+form{
   background: rgb(36, 45, 44);
   backdrop-filter: blur(10px);
   padding: 40px;
@@ -18,10 +17,10 @@ body {
   width: 380px; height: 89%;
   margin-right: 5%;
   color: white;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3); 
 }
 
-.login-form h2 {
+ .login-form h2 {
   margin-bottom: 10px;
   font-size: 28px;
 }

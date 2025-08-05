@@ -7,19 +7,23 @@
   <link rel="stylesheet" href="css/login.css" />
 </head>
 <body>
+<form onsubmit="return validate()"> <!-- added return here -->
   <div class="login-form">
-    <h2  style="margin-top: 80px;">Welcome back</h2>
+    <h2 style="margin-top: 80px;">Welcome back</h2>
     <p>Please enter your details.</p>
 
     <label for="email">E-mail</label>
-    <input type="email" id="email" placeholder="Enter your e-mail"  />
+    <input type="email" id="email" placeholder="Enter your e-mail" />
 
     <label for="password">Password</label>
     <input type="password" id="password" placeholder="********" /> <br><br>
 
-   
-
-   <a href="homepage.html"> <button type="submit">Log in</button></a> <p class="register-text">Don't have an account? <a href="signup.html">Register here</a></p>
+    <span id="err1"></span><br><br>
+    <button type="submit">Log in</button>
+    <p class="register-text">Don't have an account? <a href="signup.html">Register here</a></p>
   </div>
+</form>
+
+<script src="js/login.js"></script>
 </body>
 </html>

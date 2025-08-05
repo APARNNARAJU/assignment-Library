@@ -7,25 +7,35 @@
   <link rel="stylesheet" href="css/signup.css" />
 </head>
 <body>
-  <div class="login-form">
+    <form onsubmit="return validate()">
+<div class="login-form">
     <center><h2  style="margin-top: 10px;">Hi mate..Welcome</h2>
     <p>Please enter your details.</p></center>
 
     <label for="email" style="margin-left: 60px;">First Name</label>
-    <input type="email" id="email" placeholder="Enter your First Name"  />
+    <input type="text" id="fname" placeholder="Enter your First Name"  />
     <label for="email" style="margin-left: 60px;">Last Name</label>
-    <input type="email" id="email" placeholder="Enter your Last Name"  />
+    <input type="text" id="lname" placeholder="Enter your Last Name"  />
     <label for="email" style="margin-left: 60px;">E-mail</label>
     <input type="email" id="email" placeholder="Enter your e-mail"  />
     <label for="email" style="margin-left: 60px;">Ph No.</label>
-    <input type="email" id="email" placeholder="Enter your number"  />
+    <input type="text" id="phno" placeholder="Enter your number"  />
 
+
+    
     <label for="password" style="margin-left: 60px;">Password</label>
-    <input type="password" id="password" placeholder="********" /> <br><br>
+    <input class="passkey" type="password" id="password" placeholder="********" oninput="checkStrength()" />
+    <img src="js/img/eyeclosegreen.png" style="position: relative; right: 60px; top: 8px;" alt="" id="eyeicon" onclick="eye()"> 
+    <span id="strengthMsg"></span><br> <br> 
 
-   
+  
 
-    <a href="homepage.html"><button type="submit">Sign Up</button></a> <p class="register-text">Already have an account?..Login here <a href="loginpage.html">Login</a></p>
+
+    <button type="submit">Sign Up</button>
+     <p class="register-text">Already have an account?..Login here <a href="loginpage.html">Login</a></p>
+    <script src="js/signup.js"></script>
   </div>
+    </form>
+  
 </body>
 </html>
